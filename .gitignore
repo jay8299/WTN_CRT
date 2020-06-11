@@ -2,6 +2,8 @@
 *.class
 
 .metadata
+.DS_Store
+.recommenders
 
 # Log file
 *.log
