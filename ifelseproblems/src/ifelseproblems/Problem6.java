@@ -12,4 +12,47 @@ If the gender is 'Male' and age is between 1 and 58, the percentage of interest 
 
 If the gender is 'Male' and age is between 59 and 100, the percentage of interest is 10.5%.
  */
+	
+	
+	public static void main(String [] args)
+	{
+		String s1=args[0];
+		int age=Integer.parseInt(args[1]);
+		if(s1.equals("Female"))
+		{
+			if(age>=1 && age<=58)
+			{
+				System.out.println("8.2%");
+			}
+			else if(age>=59 && age<=100)
+			{
+				System.out.println("9.2%");
+			}
+		}
+		else if(s1.equals("Male"))
+		{
+			if(age>=1 && age<=58)
+			{
+				System.out.println("8.4%");
+			}
+			else if(age>=59 && age<=100)
+			{
+				System.out.println("10.5%");
+			}
+		}
+		
+	}
+
 }
+
+
+
+/*
+ * i/p: Male
+ * o/p: 10.5%
+ */
+
+
+
+
+

@@ -1,5 +1,7 @@
 package loopproblems;
 
+import java.util.Scanner;
+
 public class Problem15 {
 	/*
 	 * Write a program to print * in Floyds format (using for and while loop)
@@ -18,5 +20,19 @@ O/P :
 *  * 
 *  *  *
 	 */
+	
+	public static void main(String [] args){
+		Scanner scan = new Scanner(System.in);
+		int a=scan.nextInt();
+		scan.close();		
+		for(int i=0;i<a;i++){
+		for(int j=0;j<=i;j++){
+		System.out.print("* ");
+		}
+		System.out.println();
+		}
+		}
+
+	
 
 }
